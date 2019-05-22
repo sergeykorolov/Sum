@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sum</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--форма для ввода чисел-->
+        <div class="mainBlock">
+            <label for="number1">Первое число:</label>
+            <input id="number1" type="text">
+            <label for="number2">Второе число:</label>
+            <input id="number2" type="text">
+            <button class="submit" onclick="sum()">Сложить</button>
+        </div>
+
+        <!--всплывающее окно с результатом сложения-->
+        <div class="popup">
+            <p class="message">Результат:</p>
+            <p class="result"></p>
+            <button class="ok" onclick="buttonOk()">OK</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+.mainBlock{
+    padding-left: 10px;
+    width: 210px;
+    border: solid 1px gray;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#number1{
+    margin-bottom: 5px;
+}
+
+#number2{
+    margin-bottom: 15px;
+}
+
+.submit{
+    margin-bottom: 10px;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.popup{
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 400px;
+    height: 130px;
+    border: solid 1px gray;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.message{
+    opacity: 0.6;
+    padding-left: 15px;
+}
+
+.result{
+    opacity: 0.6;
+    padding-left: 15px;
+    height: 20px;
+}
+
+.ok{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: dodgerblue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.ok:hover{
+    cursor: pointer;
+}
+
+
+
